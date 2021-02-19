@@ -1,3 +1,5 @@
+![cover](./screen.PNG)
+
 ## Simple editor
 - Is an small website which is made as homework by my 6 year old nephew to show him how to use git
 - This very simple app is an notepad with save, load, and clear saved content funtionalities
