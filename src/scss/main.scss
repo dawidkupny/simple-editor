@@ -43,19 +43,29 @@ body {
   width: 65px;
   height: 40px;
   left: 448px;
-  top: 572px;
+  top: 582px;
 
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   &__save {
     left: 543px;
-    top: 572px;
   }
   &__clear{
     left: 638px;
-    top: 572px;
     width: 90px;
   }
+}
+
+.info {
+  position: absolute;
+  height: 40px;
+  left: 448px;
+  top: 542px;
+
+  color: red;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
 }
 
