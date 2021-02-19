@@ -17,11 +17,16 @@
   </head>
   <body>
     <main class="main">
-      <textarea class="textarea text--js" placeholder="Tutaj wpisz swoje notatki..."></textarea>
-      <p class="info info--js"></p>
-      <button class="button button__load load--js">Load</button>
-      <button class="button button__save save--js">Save</button>
-      <button class="button button__clear clear--js">Clear all</button>
+      <h1 class="main__header">Simple editor</h1>
+      <form class="form">
+        <textarea aria-label="Enter notes" class="form__textarea text--js" placeholder="Tutaj wpisz swoje notatki..."></textarea>
+        <div class="form__buttons">
+          <button class="button button--load load--js">Load</button>
+          <button class="button button--save save--js">Save</button>
+          <button class="button button--clear clear--js">Clear</button>
+        </div>
+        <p class="form__info info--js"></p>
+      </form>
     </main>
   </body>
 </html>
